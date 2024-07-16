@@ -1,0 +1,49 @@
+/* Variables SCSS */
+$primary-color: #007BFF;
+$secondary-color: #6c757d;
+$background-color: #f4f4f4;
+$text-color: #333;
+$font-family: Arial, sans-serif;
+
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles de base pour le body */
+body {
+  font-family: $font-family;
+  line-height: 1.6;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles de base pour les titres */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1em 0;
+  font-weight: normal;
+}
+
+/* Styles de base pour les paragraphes */
+p {
+  margin: 0 0 1em 0;
+}
+
+/* Styles de base pour les listes */
+ul, ol {
+  margin: 0 0 1em 1.5em;
+}
+
+/* Styles de base pour les liens */
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
