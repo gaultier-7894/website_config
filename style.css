@@ -1,0 +1,51 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles de base pour le body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles de base pour les titres */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1em 0;
+  font-weight: normal;
+}
+
+/* Styles de base pour les paragraphes */
+p {
+  margin: 0 0 1em 0;
+}
+
+/* Styles de base pour les listes */
+ul, ol {
+  margin: 0 0 1em 1.5em;
+}
+
+/* Styles de base pour les liens */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Variables CSS (facultatif) */
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #6c757d;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --font-family: Arial, sans-serif;
+}
